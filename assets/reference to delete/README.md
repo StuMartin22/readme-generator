@@ -43,6 +43,17 @@ WHEN I enter my email address
 THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
+
+Title, 
+description
+table of contents,
+installation,
+usage,
+contributing,
+tests,
+license (&badge) - list of options,
+questions -- email section w/ instructions how to reach me, 
+links take user to corresponding section of readme
 ```
 
 ## Getting Started
