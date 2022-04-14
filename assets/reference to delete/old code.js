@@ -1,4 +1,7 @@
-<h1 align="center">Personal Portfolio</h1>
+
+
+const generateMarkdown = ({ title, HTML, CSS, JAVASCRIPT, NODEJS, about, screencaps }) =>
+<h1 align="center"> $('title') </h1>
 <h1 align="center"></h1>
 <h2 align="center">Technologies Used</h1>
 <p align="center">
@@ -52,3 +55,7 @@ Contributions are not currently accepted as production of application is on hiat
 
 <p align="center">Stuart Martin</p>
 <p align="center"><a href="https://github.com/StuMartin22">https://github.com/StuMartin22</a></p>
+
+
+
+
