@@ -19,6 +19,13 @@ const userInput = () => {
       message: 'Give a small description of your application. What is it about?',
     },
     {
+      type: 'list',
+      name: 'license',
+      message: 'What licensure are you using?'
+      choices: ['Apache 2.0',]
+
+    },
+    {
       type: 'confirm',
       name: 'html',
       message: 'Did you use HTML?',
@@ -95,4 +102,4 @@ const init = () => {
   };
   //calls initiation
   init();
-  
+
