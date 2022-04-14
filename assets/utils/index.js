@@ -1,4 +1,4 @@
-// packages required
+// packages and files required
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./generateMarkdown')
@@ -10,43 +10,89 @@ const userInput = () => {
   return inquirer.prompt([
     {
       type: 'input',
-      name: 'name',
-      message: 'What is your name?',
+      name: 'title',
+      message: 'What is the title of your project?',
     },
     {
       type: 'input',
-      name: 'location',
-      message: 'Where are you from?',
+      name: 'about',
+      message: 'Give a small description of your application. What is it about?',
     },
     {
-      type: 'input',
-      name: 'hobby',
-      message: 'What is your favorite hobby?',
+      type: 'confirm',
+      name: 'html',
+      message: 'Did you use HTML?',
     },
     {
-      type: 'input',
-      name: 'food',
-      message: 'What is your favorite food?',
+      type: 'confirm',
+      name: 'css',
+      message: 'Did you use css?',
     },
     {
-      type: 'input',
-      name: 'github',
-      message: 'Enter your GitHub Username',
+      type: 'confirm',
+      name: 'javascript',
+      message: 'Did you use javascript?',
     },
     {
-      type: 'input',
+      type: 'list',
       name: 'linkedin',
-      message: 'Enter your LinkedIn URL.',
+      message: 'How many images are you wanting to include?',
+      choices: ['one','two','three']
     },
+    {
+        type: 'confirm',
+        name: 'productionVideo',
+        message: 'Do you have a video to include?',
+      },
+      {
+        type: 'input',
+        name: 'installation',
+        message: 'Please input how to install your application',
+      },
+      {
+        type: 'input',
+        name: 'functionality',
+        message: 'How does your application function? Describe its functionality.',
+      },
+      {
+        type: 'confirm',
+        name: 'contributions',
+        message: 'Do you want to accept contributions?',
+      },
+      {
+        type: 'confirm',
+        name: 'liveLink',
+        message: 'Does your application have a live link?',
+      },
+      {
+        type: 'input',
+        name: 'repoLink',
+        message: 'Please enter the link to your repo for the project.',
+      },
+      {
+        type: 'input',
+        name: 'authorName',
+        message: 'What is your name?',
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'Please insert your email address.',
+      },
+      {
+        type: 'input',
+        name: 'authorGitHub',
+        message: 'Please enter your GitHub username.',
+      },
   ]);
 };
-
+// uses init to initiate the questions. answers from userInput are written to a md file called README which is created through generateMarkdown which passes the userInput Answers
 const init = () => {
     userInput()
       .then((answers) => fs.writeFileSync('README.md', generateMarkdown(answers)))
       .then(() => console.log('Successfully wrote to README'))
       .catch((err) => console.error(err));
   };
-  
+  //calls initiation
   init();
   
