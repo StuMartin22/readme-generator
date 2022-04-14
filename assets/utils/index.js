@@ -1,7 +1,7 @@
 // packages and files required
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('./generateMarkdown')
+const generateMarkdown = require('./generateMarkdown');
 
 
 //array of objects holding questions for user.
@@ -19,11 +19,10 @@ const userInput = () => {
       message: 'Give a small description of your application. What is it about?',
     },
     {
-      type: 'list',
+      type: 'checkbox',
       name: 'license',
-      message: 'What licensure are you using?'
-      choices: ['Apache 2.0',]
-
+      message: 'What licensure are you using?',
+      choices: ['MIT License','Apache 2.0','APM']
     },
     {
       type: 'confirm',

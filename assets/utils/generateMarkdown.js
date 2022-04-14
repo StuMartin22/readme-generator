@@ -1,14 +1,25 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(answers) { <-- renders from line 33
+  if (answers.license === "MIT License"){
 
+  return `badgeurlgoeshere`
+}else if() { answers.license === "Apache 2.0"
+
+}else if (){
+
+} else {return ``}
+};
+^ can use this for html, CSS, JS badges -- 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) { ^ same thing as above but link to the license instead of img
+
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {} ^this is copy right section but put actual text in here /block of text
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
@@ -24,6 +35,7 @@ function generateMarkdown(answers) {
   <h1 align="center">License Type</h1>
 
   ${answers.license}
+  ${renderLicenseBadge(answers)}
   
   ---
   
