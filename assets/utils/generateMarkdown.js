@@ -60,9 +60,9 @@ function generateMarkdown(answers) {
   
   ---
   
-  <h1 align="center">Functionality</h1>
+  <h1 align="center">Usage</h1>
   
-  ${functionality}
+  ${usage}
   
   ---
   

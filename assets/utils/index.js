@@ -51,8 +51,8 @@ const userInput = () => {
       },
       {
         type: 'input',
-        name: 'functionality',
-        message: 'How does your application function? Describe its functionality.',
+        name: 'usage',
+        message: 'How is your app meant to be used? Describe its functionality.',
       },
       {
         type: 'confirm',
