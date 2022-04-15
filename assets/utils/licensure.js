@@ -81,4 +81,4 @@ function renderLicenseBadge(answers) {
     return ``}
   };
 
-module.exports = renderLicenseBadge, renderLicenseLink, renderLicenseSection;
+module.exports = renderLicenseBadge; renderLicenseLink; renderLicenseSection;
