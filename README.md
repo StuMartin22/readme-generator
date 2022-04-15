@@ -4,7 +4,7 @@
 <p align="center">
     <img src="https://img.shields.io/badge/HTML-orange" />
     <img src="https://img.shields.io/badge/CSS-blue" />
-    <img src="https://img.shields.io/badge/JavaScript-red"  />
+    <img src="https://img.shields.io/badge/JavaScript-red" />
 </p>
 
 

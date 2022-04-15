@@ -25,19 +25,10 @@ const userInput = () => {
       choices: ['MIT License','Apache 2.0','Unilicense'],
     },
     {
-      type: 'confirm',
-      name: 'html',
-      message: 'Did you use HTML?',
-    },
-    {
-      type: 'confirm',
-      name: 'css',
-      message: 'Did you use css?',
-    },
-    {
-      type: 'confirm',
-      name: 'javascript',
-      message: 'Did you use javascript?',
+      type: 'checkbox',
+      name: 'technologies',
+      message: 'Did you use any of the following technologies?',
+      choices: ['HTML','CSS','JS','none']
     },
     {
       type: 'list',
