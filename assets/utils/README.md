@@ -1,28 +1,17 @@
-const renderLicenseBadge = require('./licensure');
-const renderLicenseLink = require(`./licensure`);
-const renderLicenseSection = require(`./licensure`);
-const renderLiveLink = require(`./livelink`)
-const renderTechnology = require(`./technologies`)
-const renderImages = require(`./imagesandvideos`)
-const renderVideo = require(`./imagesandvideos`)
-const contributionsOrNah = require(`./imagesandvideos`)
-
-//a function to generate markdown for README
-function generateMarkdown(answers) {
-  return  `<h1 align="center" id="top"> ${answers.title} </h1>
+<h1 align="center" id="top"> t </h1>
   <h1 align="center"></h1>
   
   ---
   
   <h1 align="center" id="about">About This Application</h1>
   
-  ${answers.about}
+  t
 
   <h1 align="center" id="license">License Type</h1>
 
 
-  ${renderLicenseBadge(answers)}
-  ${renderLicenseLink(answers)}
+  https://opensource.org/licenses/MIT
+  https://opensource.org/licenses/MIT
 
   
   ---
@@ -43,54 +32,48 @@ function generateMarkdown(answers) {
   
   <h1 align="center" id="technologies">Technologies Used</h1>
   
-  ${renderTechnology(answers)}
+  
   
   ---
   
   <h1 align="center" id="images">Images and Videos</h1>
   
-  ${renderImages(answers)}
+  ![Image of WHATEVER THE IMAGE IS GOES HERE. IMAGE ALT TEXT GOES HERE.]( ./LOCALFILEPATHHERE "NAMEOFIMAGEHERE")
   
-  ${renderVideo(answers)}
+  ![Image of WHATEVER THE IMAGE IS GOES HERE. IMAGE ALT TEXT GOES HERE.]( ./LOCALFILEPATHHERE "NAMEOFIMAGEHERE")
   
   ---
   
   <h1 align="center" id="installation">Installation</h1>
   
-  ${answers.installation}
+  t
   
   ---
   
   <h1 align="center" id="usage">Usage</h1>
   
-  ${answers.usage}
+  t
   
   ---
   
   <h1 align="center" id="contributions">Contributions</h1>
   
-  ${contributionsOrNah (answers)}
+  ![Image of WHATEVER THE IMAGE IS GOES HERE. IMAGE ALT TEXT GOES HERE.]( ./LOCALFILEPATHHERE "NAMEOFIMAGEHERE")
   
   ---
   
   <h1 align="center"id="current">Current Production State</h1>
   
-  ${renderLiveLink(answers)}
+  
   
   <h1 align="center">Repository for Project</h1>
   
-  <p align="center"><a href="${answers.repoLink}">View Repo Here</a></p>
+  <p align="center"><a href="t">View Repo Here</a></p>
   
   ---
   
   <h1 align="center" id="questions">Questions? Contact Me!</h1>
   
-  <p align="center">${answers.authorName}</p>
-  <p align="center">${answers.email}</p>
-  <p align="center"><a href="https://github.com/${answers.authorGitHub}" >GitHub Link</a></p>`
-};
-
-module.exports = generateMarkdown;
-
-
-// ${renderLicenseSection(answers)}
+  <p align="center">ioasniofnasofnasoinef</p>
+  <p align="center">asndioansef</p>
+  <p align="center"><a href="https://github.com/sdf" >GitHub Link</a></p>

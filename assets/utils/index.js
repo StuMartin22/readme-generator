@@ -21,7 +21,7 @@ const userInput = () => {
       type: 'list',
       name: 'license',
       message: 'What licensure are you using?',
-      choices: ['MIT License','Apache 2.0','Unilicense'],
+      choices: ['MIT','Apache2.0','Unlicense'],
     },
     {
       type: 'checkbox',

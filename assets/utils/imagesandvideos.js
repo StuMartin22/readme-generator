@@ -11,9 +11,9 @@ function renderImages (answers){
 };
 
 function renderVideo (answers){
-    if (answers.productionVideo === 'Yes'){
-        return `<a href="VIDEOURLGOESHERE">TEXTFORVIDEOLINKGOESHERE</a>`
-    }else if (answers.productionVideo === 'No'){
+    if (answers.productionVideo == 'true'){
+        return `<p><a href="VIDEOURLGOESHERE">TEXTFORVIDEOLINKGOESHERE</a></p>`
+    }else if (answers.productionVideo == 'false'){
         return ``
     }else {
         return ``
