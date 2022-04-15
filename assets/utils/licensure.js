@@ -14,6 +14,7 @@ function renderLicenseBadge(answers) {
   
   // a function that returns the license link
   // If there is no license, return an empty string
+
   function renderLicenseLink(answers) {
     if (answers.license === "MIT License") {
       return `https://opensource.org/licenses/MIT`

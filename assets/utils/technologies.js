@@ -1,3 +1,4 @@
+//puts badge icons in readme of options user selects in the technologies section.
 function renderTechnology(answers) { 
     if (answers.technologies === "HTML") {
     return `<img src="https://img.shields.io/badge/HTML-orange" />`
