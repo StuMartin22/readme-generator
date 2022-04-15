@@ -20,4 +20,4 @@ function renderVideo (answers){
     }
 };
 
-module.exports = renderImages, renderVideo;
+module.exports = {renderImages, renderVideo}

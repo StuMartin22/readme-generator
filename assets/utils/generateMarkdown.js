@@ -1,9 +1,8 @@
 const {renderLicenseBadge, renderLicenseLink, renderLicenseSection} = require('./licensure');
 const renderLiveLink = require(`./liveLink`)
 const renderTechnology = require(`./technologies`)
-const renderImages = require(`./imagesandVideos`)
-const renderVideo = require(`./imagesandVideos`)
-const contributionsOrNah = require(`./imagesandVideos`)
+const {renderImages, renderVideo} = require(`./imagesandvideos`)
+const contributionsOrNah = require(`./contributions`)
 
 //a function to generate markdown for README
 function generateMarkdown(answers) {
@@ -69,7 +68,7 @@ function generateMarkdown(answers) {
   
   <h1 align="center" id="contributions">Contributions</h1>
   
-  ${contributionsOrNah (answers)}
+  ${contributionsOrNah(answers)}
   
   ---
   
@@ -91,6 +90,3 @@ function generateMarkdown(answers) {
 };
 
 module.exports = generateMarkdown;
-
-
-// ${renderLicenseSection(answers)}
