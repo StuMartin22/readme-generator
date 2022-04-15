@@ -1,18 +1,26 @@
-<h1 align="center" id="top"> t </h1>
+<h1 align="center" id="top"> title </h1>
   <h1 align="center"></h1>
   
   ---
   
   <h1 align="center" id="about">About This Application</h1>
   
-  t
+  test
 
   <h1 align="center" id="license">License Type</h1>
 
 
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  <br>
   https://opensource.org/licenses/MIT
-  https://opensource.org/licenses/MIT
+  <br>
+  Copyright 8888 stu 
 
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   
   ---
   
@@ -46,13 +54,13 @@
   
   <h1 align="center" id="installation">Installation</h1>
   
-  t
+  y
   
   ---
   
   <h1 align="center" id="usage">Usage</h1>
   
-  t
+  y
   
   ---
   
@@ -68,12 +76,12 @@
   
   <h1 align="center">Repository for Project</h1>
   
-  <p align="center"><a href="t">View Repo Here</a></p>
+  <p align="center"><a href="y">View Repo Here</a></p>
   
   ---
   
   <h1 align="center" id="questions">Questions? Contact Me!</h1>
   
-  <p align="center">ioasniofnasofnasoinef</p>
-  <p align="center">asndioansef</p>
-  <p align="center"><a href="https://github.com/sdf" >GitHub Link</a></p>
+  <p align="center">stu</p>
+  <p align="center">y</p>
+  <p align="center"><a href="https://github.com/y" >GitHub Link</a></p>
