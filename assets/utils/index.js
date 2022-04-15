@@ -37,50 +37,55 @@ const userInput = () => {
       choices: ['one','two','three']
     },
     {
-        type: 'confirm',
-        name: 'productionVideo',
-        message: 'Do you have a video to include?',
-      },
-      {
-        type: 'input',
-        name: 'installation',
-        message: 'Please input how to install your application',
-      },
-      {
-        type: 'input',
-        name: 'usage',
-        message: 'How is your app meant to be used? Describe its functionality.',
-      },
-      {
-        type: 'confirm',
-        name: 'contributions',
-        message: 'Do you want to accept contributions?',
-      },
-      {
-        type: 'confirm',
-        name: 'liveLink',
-        message: 'Does your application have a live link?',
-      },
-      {
-        type: 'input',
-        name: 'repoLink',
-        message: 'Please enter the link to your repo for the project.',
-      },
-      {
-        type: 'input',
-        name: 'authorName',
-        message: 'What is your name?',
-      },
-      {
-        type: 'input',
-        name: 'email',
-        message: 'Please insert your email address.',
-      },
-      {
-        type: 'input',
-        name: 'authorGitHub',
-        message: 'Please enter your GitHub username.',
-      },
+      type: 'confirm',
+      name: 'productionVideo',
+      message: 'Do you have a video to include?',
+    },
+    {
+      type: 'input',
+      name: 'installation',
+      message: 'Please input how to install your application',
+    },
+    {
+      type: 'input',
+      name: 'usage',
+      message: 'How is your app meant to be used? Describe its functionality.',
+    },
+    {
+      type: 'confirm',
+      name: 'contributions',
+      message: 'Do you want to accept contributions?',
+    },
+    {
+      type: 'confirm',
+      name: 'liveLink',
+      message: 'Does your application have a live link?',
+    },
+    {
+      type: 'input',
+      name: 'repoLink',
+      message: 'Please enter the link to your repo for the project.',
+    },
+    {
+      type: 'input',
+      name: 'authorName',
+      message: 'What is your name?',
+    },
+    {
+      type: 'input',
+      name: 'year',
+      message: 'Please enter the 4 digit year',
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'Please insert your email address.',
+    },
+    {
+      type: 'input',
+      name: 'authorGitHub',
+      message: 'Please enter your GitHub username.',
+    },
   ]);
 };
 // uses init to initiate the questions. answers from userInput are written to a md file called README which is created through generateMarkdown which passes the userInput Answers
