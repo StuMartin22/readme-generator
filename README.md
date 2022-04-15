@@ -7,6 +7,15 @@
     <img src="https://img.shields.io/badge/JavaScript-red"  />
 </p>
 
+
+
+
+
+
+
+
+
+
 ---
 
 <h1 align="center">About This Application</h1>

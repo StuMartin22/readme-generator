@@ -19,10 +19,10 @@ const userInput = () => {
       message: 'Give a small description of your application. What is it about?',
     },
     {
-      type: 'checkbox',
+      type: 'list',
       name: 'license',
       message: 'What licensure are you using?',
-      choices: ['MIT License','Apache 2.0','APM']
+      choices: ['MIT License','Apache 2.0','Unilicense'],
     },
     {
       type: 'confirm',

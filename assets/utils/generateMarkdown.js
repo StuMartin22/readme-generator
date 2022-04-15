@@ -1,25 +1,27 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(answers) { <-- renders from line 33
-  if (answers.license === "MIT License"){
+// // TODO: Create a function that returns a license badge based on which license is passed in
+// // If there is no license, return an empty string
 
-  return `badgeurlgoeshere`
-}else if() { answers.license === "Apache 2.0"
+function renderLicenseBadge(answers) { 
 
-}else if (){
-
-} else {return ``}
+  if (answers.license === "MIT License") {
+  return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
+} else if (answers.license === "Apache 2.0") { 
+  return `![License:Apache2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)`
+} else if (answers.license === "Unilicense") {
+  return `![License: Unlicense](https://img.shields.io/badge/License-Unlicense-blue.svg)`
+} else {
+  return ``}
 };
-^ can use this for html, CSS, JS badges -- 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) { ^ same thing as above but link to the license instead of img
+// ^ can use this for html, CSS, JS badges -- 
+// // TODO: Create a function that returns the license link
+// // If there is no license, return an empty string
+// function renderLicenseLink(license) { ^ same thing as above but link to the license instead of img
 
-}
+// }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {} ^this is copy right section but put actual text in here /block of text
+// function renderLicenseSection(license) {} ^this is copy right section but put actual text in here /block of text
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
@@ -110,3 +112,10 @@ module.exports = generateMarkdown;
 
 
 
+// https://opensource.org/licenses/Apache-2.0 - link
+
+
+// https://opensource.org/licenses/MIT -- link
+
+
+// http://unlicense.org/-- link
