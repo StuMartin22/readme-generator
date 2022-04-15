@@ -31,7 +31,7 @@ const userInput = () => {
     },
     {
       type: 'list',
-      name: 'linkedin',
+      name: 'images',
       message: 'How many images are you wanting to include?',
       choices: ['one','two','three']
     },

@@ -27,14 +27,14 @@ function generateMarkdown(answers) {
   <h2 align="center"><a href="#contributing">Contributing</a></h2>
   <h2 align="center"><a href="#tests">Tests</a></h2>
   <h2 align="center"><a href="#license">License</a></h2>
-  <h2 align="center"><a href="#links">Links</a></h2>
+  <h2 align="center"><a href="#current">Links</a></h2>
   <h2 align="center"><a href="#questions">Questions?</a></h2>
   
   ---
   
   <h1 align="center" id="technologies">Technologies Used</h1>
   
-  ${answers.html} ${answers.css} ${answers.javascript}
+  ${answers.technologies}
   
   ---
   
@@ -68,7 +68,7 @@ function generateMarkdown(answers) {
   
   ---
   
-  <h1 align="center"id="Links">Current Production State</h1>
+  <h1 align="center"id="current">Current Production State</h1>
   
   <p align="center"><a href="${answers.liveLink}">Live Link</a></p>
   
