@@ -1,3 +1,12 @@
+const renderLicenseBadge = require('./licensure');
+const renderLicenseLink = require(`./licensure`);
+const renderLicenseSection = require(`./licensure`);
+const renderLiveLink = require(`./livelink`)
+const renderTechnology = require(`./technologies`)
+const renderImages = require(`./imagesandvideos`)
+const renderVideo = require(`./imagesandvideos`)
+const contributionsOrNah = require(`./imagesandvideos`)
+
 //a function to generate markdown for README
 function generateMarkdown(answers) {
   return  `<h1 align="center" id="top"> ${answers.title} </h1>
@@ -34,19 +43,15 @@ function generateMarkdown(answers) {
   
   <h1 align="center" id="technologies">Technologies Used</h1>
   
-  ${answers.technologies}
+  ${renderTechnology(answers)}
   
   ---
   
   <h1 align="center" id="images">Images and Videos</h1>
   
-  ${answers.screenCap}
+  ${renderImages(answers)}
   
-  ${answers.screenCapTwo}
-  
-  ${answers.screenCapThree}
-  
-  ${answers.productionVideo}
+  ${renderVideo(answers)}
   
   ---
   
@@ -64,13 +69,13 @@ function generateMarkdown(answers) {
   
   <h1 align="center" id="contributions">Contributions</h1>
   
-  ${answers.contributions}
+  ${contributionsOrNah (answers)}
   
   ---
   
   <h1 align="center"id="current">Current Production State</h1>
   
-  <p align="center"><a href="${answers.liveLink}">Live Link</a></p>
+  ${renderLiveLink(answers)}
   
   <h1 align="center">Repository for Project</h1>
   

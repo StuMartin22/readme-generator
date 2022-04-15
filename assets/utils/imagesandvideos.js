@@ -19,3 +19,5 @@ function renderVideo (answers){
         return ``
     }
 };
+
+module.exports = renderImages, renderVideo;

@@ -80,5 +80,5 @@ function renderLicenseBadge(answers) {
   } else {
     return ``}
   };
-  
-  
+
+module.exports = renderLicenseBadge, renderLicenseLink, renderLicenseSection;

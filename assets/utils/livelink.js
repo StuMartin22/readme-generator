@@ -7,3 +7,5 @@ if (answers.liveLink === "Y") {
     return ``
   }
 }
+
+module.exports = renderLiveLink;

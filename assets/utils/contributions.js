@@ -7,3 +7,5 @@ function contributionsOrNah (answers){
         return ``
     }
 };
+
+module.exports = contributionsOrNah;

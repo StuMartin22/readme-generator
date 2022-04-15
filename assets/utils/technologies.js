@@ -11,3 +11,5 @@ function renderTechnology(answers) {
   } else {
     return ``}
   };
+
+  module.exports = renderTechnology;
