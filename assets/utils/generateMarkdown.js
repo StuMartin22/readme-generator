@@ -7,6 +7,7 @@ const contributionsOrNah = require(`./contributions`);
 
 //a function to generate markdown for README
 function generateMarkdown(answers) {
+  console.log(answers)
   return  `<h1 align="center" id="top"> ${answers.title} </h1>
   <h1 align="center"></h1>
   
