@@ -46,7 +46,7 @@
 
 function HTMLanswers (answers) {
   if (answers.htmlYN === 'yes' || 'true') {
-    return '<img src="https://img.shields.io/badge/HTML-orange"/>'
+    return `<img src="https://img.shields.io/badge/HTML-orange"/>`
   } else {
     return ''
   }
@@ -54,7 +54,7 @@ function HTMLanswers (answers) {
 
 function CSSanswers (answers) {
   if (answers.cssYN === 'yes' || 'true') {
-    return '<img src="https://img.shields.io/badge/CSS-blue"/>'
+    return `<img src="https://img.shields.io/badge/CSS-blue"/>`
   } else {
     return ''
   }
@@ -62,7 +62,7 @@ function CSSanswers (answers) {
 
 function JSanswers (answers) {
   if (answers.jsYN === 'yes' || 'true') {
-    return '<img src="https://img.shields.io/badge/JavaScript-red"/>'
+    return `<img src="https://img.shields.io/badge/JavaScript-red"/>`
   } else {
     return ''
   }

@@ -1,11 +1,11 @@
-<h1 align="center" id="top"> title f</h1>
+<h1 align="center" id="top"> yup er</h1>
   <h1 align="center"></h1>
   
   ---
   
   <h1 align="center" id="about">About This Application</h1>
   
-  testing
+  e
 
   <h1 align="center" id="license">License Type</h1>
 
@@ -40,7 +40,7 @@
   
   <h1 align="center" id="technologies">Technologies Used</h1>
   
-  <img src="https://img.shields.io/badge/CSS-blue"/> 
+  <img src="https://img.shields.io/badge/HTML-orange"/> 
 
   <img src="https://img.shields.io/badge/CSS-blue"/> 
 
@@ -50,7 +50,7 @@
   
   <h1 align="center" id="images">Images and Videos</h1>
   
-  ![Image of WHATEVER THE IMAGE IS GOES HERE. IMAGE ALT TEXT GOES HERE.]( ./LOCALFILEPATHHERE "NAMEOFIMAGEHERE")
+  <p>![Image of WHATEVER THE IMAGE IS GOES HERE. IMAGE ALT TEXT GOES HERE.]( ./LOCALFILEPATHHERE "NAMEOFIMAGEHERE")</p>
   
   <a href="VIDEOURLGOESHERE">TEXTFORVIDEOLINKGOESHERE</a>
   
@@ -70,13 +70,13 @@
   
   <h1 align="center" id="contributions">Contributions</h1>
   
-  
+  Contact me if you'd like to contribute something to the repo of this project. Otherwise if you'd like to use the content herewithin check the licensure attached.
   
   ---
   
   <h1 align="center"id="current">Current Production State</h1>
   
-  
+  <a href="PUT YOUR URL HERE">and your link text here</a>
   
   <h1 align="center">Repository for Project</h1>
   
