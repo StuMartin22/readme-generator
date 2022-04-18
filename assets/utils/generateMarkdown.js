@@ -79,7 +79,7 @@ function generateMarkdown(answers) {
   
   <h1 align="center"id="current">Current Production State</h1>
   
-  ${renderLiveLink(answers)}
+  <p align="center">${renderLiveLink(answers)}</p>
   
   <h1 align="center">Repository for Project</h1>
   
