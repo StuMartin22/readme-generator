@@ -1,5 +1,5 @@
 function renderLiveLink(answers){
-if (answers.liveLink == 'yes'||'true') {
+if (answers.liveLink == true) {
     return `<a href="PUT YOUR URL HERE">and your link text here</a>`
   } else {
     return ``
