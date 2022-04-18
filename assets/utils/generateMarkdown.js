@@ -1,8 +1,9 @@
 const {renderLicenseBadge, renderLicenseLink, renderLicenseSection} = require('./licensure');
-const renderLiveLink = require(`./liveLink`)
-const renderTechnology = require(`./technologies`)
-const {renderImages, renderVideo} = require(`./imagesandvideos`)
-const contributionsOrNah = require(`./contributions`)
+const renderLiveLink = require(`./liveLink`);
+// const renderTechnology = require(`./technologies`)
+const {HTMLanswers, CSSanswers, JSanswers} = require(`./technologies`);
+const {renderImages, renderVideo} = require(`./imagesandvideos`);
+const contributionsOrNah = require(`./contributions`);
 
 //a function to generate markdown for README
 function generateMarkdown(answers) {
@@ -27,7 +28,7 @@ function generateMarkdown(answers) {
   ---
   
   <h1 align="center"><a href="#top">Table of Contents</a></h1>
-  <h2 align="center"><a href="#about>About</a></h2>
+  <h2 align="center"><a href="#about">About</a></h2>
   <h2 align="center"><a href="#technologies">Technologies Used</a></h2>
   <h2 align="center"><a href="#images">Images and Videos</a></h2>
   <h2 align="center"><a href="#installation">Installation</a></h2>
@@ -42,7 +43,11 @@ function generateMarkdown(answers) {
   
   <h1 align="center" id="technologies">Technologies Used</h1>
   
-  ${renderTechnology(answers)}
+  ${HTMLanswers(answers)} 
+
+  ${CSSanswers(answers)} 
+
+  ${JSanswers(answers)}
   
   ---
   

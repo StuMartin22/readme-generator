@@ -23,11 +23,26 @@ const userInput = () => {
       message: 'What licensure are you using?',
       choices: ['MIT','Apache2.0','Unlicense'],
     },
+    // {
+    //   type: 'checkbox',
+    //   name: 'technologies',
+    //   message: 'Did you use any of the following technologies?',
+    //   choices: ['HTML','CSS','JS','none']
+    // },
     {
-      type: 'checkbox',
-      name: 'technologies',
-      message: 'Did you use any of the following technologies?',
-      choices: ['HTML','CSS','JS','none']
+      type: 'confirm',
+      name: 'htmlYN',
+      message: 'Did you use HTML in this project?'
+    },
+    {
+      type: 'confirm',
+      name: 'cssYN',
+      message: 'Did you use CSS in this project?'
+    },
+    {
+      type: 'confirm',
+      name: 'jsYN',
+      message: 'Did you use Javascript in this project?'
     },
     {
       type: 'list',
@@ -85,15 +100,13 @@ const userInput = () => {
       name: 'authorGitHub',
       message: 'Please enter your GitHub username.',
     },
-  ]);
-};
-// uses init to initiate the questions. answers from userInput are written to a md file called README which is created through generateMarkdown which passes the userInput Answers
-const init = () => {
-    userInput()
+  ])
+    };
+    const init = () => {
+      userInput()
       .then((answers) => fs.writeFileSync('README.md', generateMarkdown(answers)))
       .then(() => console.log('Successfully wrote to README'))
       .catch((err) => console.error(err));
-  };
-  //calls initiation
-  init();
+    };
 
+    init();
