@@ -108,5 +108,4 @@ const userInput = () => {
       .then(() => console.log('Successfully wrote to README'))
       .catch((err) => console.error(err));
     };
-
     init();
