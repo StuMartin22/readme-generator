@@ -49,9 +49,7 @@
   ---
   
   <h1 align="center" id="images">Images and Videos</h1>
-  
-  `![Image of WHATEVER THE IMAGE IS GOES HERE. IMAGE ALT TEXT GOES HERE.]( ./LOCALFILEPATHHERE "NAMEOFIMAGEHERE")` `![Image of WHATEVER THE IMAGE IS GOES HERE. IMAGE ALT TEXT GOES HERE.]( ./LOCALFILEPATHHERE "NAMEOFIMAGEHERE")`
-  
+    
   <a href="https://drive.google.com/file/d/196dDLRxSlPJeqNJsBOCjVRaEw1XEtC45/view">Video displaying functionality of Readme Generator</a>
   
   ---
