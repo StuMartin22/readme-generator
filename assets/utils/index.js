@@ -104,7 +104,7 @@ const userInput = () => {
     };
     const init = () => {
       userInput()
-      .then((answers) => fs.writeFileSync('README.md', generateMarkdown(answers)))
+      .then((answers) => fs.writeFileSync('../../README.md', generateMarkdown(answers)))
       .then(() => console.log('Successfully wrote to README'))
       .catch((err) => console.error(err));
     };
